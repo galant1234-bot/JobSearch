@@ -20,15 +20,15 @@
   },
   "https://job-boards.eu.greenhouse.io/unframe/jobs/5010019101": {
    "first_seen": "2026-11-21",
-   "published": "unknown",
-   "score": null,
-   "decision": "pending: host not allowlisted (Director of Support Engineering, Tel Aviv)"
+   "published": "2026-10-19",
+   "score": 72,
+   "decision": "open, Tel Aviv, 6+ yrs, Director level; 33 days old: digest only"
   },
   "https://job-boards.eu.greenhouse.io/guardz/jobs/4517973101": {
    "first_seen": "2026-11-21",
-   "published": "unknown",
-   "score": null,
-   "decision": "pending: host not allowlisted (Support Operations & AI Automation Engineer, Tel Aviv)"
+   "published": "2025-01-12",
+   "score": 40,
+   "decision": "posted ~10 months ago, AI-automation engineering focus: dropped"
   }
  }
 }
