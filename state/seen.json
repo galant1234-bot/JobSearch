@@ -1,1 +1,34 @@
-{"seen": {}}
+{
+ "seen": {
+  "https://job-boards.greenhouse.io/gongio/jobs/4728428006": {
+   "first_seen": "2026-11-21",
+   "published": "2026-11-11",
+   "score": 89,
+   "decision": "reported (strong, older than 3 days: digest only)"
+  },
+  "https://jobs.tlv.partners/companies/unframe-2-219d16d7-da86-4593-8b2e-cbc015d954dc/jobs/91777068-technical-support-lead": {
+   "first_seen": "2026-11-21",
+   "published": "2026-09-01",
+   "score": 0,
+   "decision": "rejected: closed"
+  },
+  "https://jobs.tlv.partners/companies/port/jobs/64473654-technical-support-team-lead": {
+   "first_seen": "2026-11-21",
+   "published": "unknown",
+   "score": 0,
+   "decision": "rejected: closed"
+  },
+  "https://job-boards.eu.greenhouse.io/unframe/jobs/5010019101": {
+   "first_seen": "2026-11-21",
+   "published": "unknown",
+   "score": null,
+   "decision": "pending: host not allowlisted (Director of Support Engineering, Tel Aviv)"
+  },
+  "https://job-boards.eu.greenhouse.io/guardz/jobs/4517973101": {
+   "first_seen": "2026-11-21",
+   "published": "unknown",
+   "score": null,
+   "decision": "pending: host not allowlisted (Support Operations & AI Automation Engineer, Tel Aviv)"
+  }
+ }
+}
