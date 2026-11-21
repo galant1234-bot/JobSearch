@@ -29,9 +29,19 @@ Freshness is the top priority.
 5. Classes: score >= 75 "strong", 60-74 "stretch". Anything below 60 is dropped.
 6. ALERT rule: a job is alerted immediately if it is new (not in seen.json), published within
    the last 3 days (or date unknown but first seen today and score >= 80), AND score >= 70.
-   Send one email per run containing all new alerts (not one email per job), subject
-   "Job alert: N new matches (top: <title> @ <company>)". Use the Gmail send_message tool.
-   If Gmail is unavailable, write the alert to digests/ALERT-<timestamp>.md and say so.
+   Send ONE email per run containing all new alerts (never one email per job).
+   Subject: "Job alert: N new matches (top: <title> @ <company>)". Use Gmail send_message with
+   `htmlBody` (not `body`, no Markdown). Format the email as follows, nothing else:
+   - One short intro line (date/time of run, number of matches).
+   - A single HTML table, styled simply (border-collapse, 1px borders, padding 8px, header row
+     shaded), sorted by score descending, with exactly these columns:
+       1. Job Title (job title in bold, company and location on a second line)
+       2. Summary (2-3 sentences: what the role does, key requirements, why it fits the CV;
+          include the posted age, e.g. "Posted 1 day ago")
+       3. Score (number out of 100, add "strong" or "stretch")
+       4. Link (a clickable "Open job" link to the job page itself, never a search or board page)
+   - No other sections, lists or paragraphs. Items that could not be verified are not alerted.
+   If Gmail is unavailable, write the same table to digests/ALERT-<timestamp>.md and say so.
 7. Write digests/YYYY-MM-DD.md (append a section per run): table of all new matches with score,
    class, company, title, location, published date (age), link, one-line why it fits.
 8. Update state/seen.json with every job evaluated (including rejected), keyed by URL, with
