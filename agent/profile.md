@@ -10,8 +10,7 @@
 ## Target roles (all included)
 Technical Support Engineer, Customer Success Engineer, Support Team Lead / Support Manager,
 Escalation Engineer / Tier 3, Integration Support Engineer, Technical Account Manager,
-Implementation Engineer, Solutions Engineer (post-sales). Hebrew titles too:
-מהנדס תמיכה טכנית, הצלחת לקוחות, ראש צוות תמיכה, מנהל תמיכה.
+Implementation Engineer, Solutions Engineer (post-sales). English titles and English searches only.
 
 ## Constraints
 - Seniority: senior and above (6+ yrs). Skip junior/entry-level/Tier 1 roles.

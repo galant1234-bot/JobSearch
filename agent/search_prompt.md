@@ -5,11 +5,15 @@ Freshness is the top priority.
 
 ## Steps
 1. Read agent/profile.md and state/seen.json (list of already-reported job URLs/ids).
-2. Search (WebSearch, standard mode) for each target title, English and Hebrew, with
-   "Tel Aviv" / district cities. Cover: comeet.com, lever.co, workable.com, greenhouse.io,
-   ashbyhq.com, alljobs.co.il, drushim.co.il, jobmaster.co.il, linkedin.com/jobs (snippets only),
-   indeed/glassdoor (snippets only), and company career pages. Use several query phrasings,
-   e.g. "posted today", "hiring now", "דרושים".
+2. Search (WebSearch, standard mode) for each target title with "Tel Aviv" / district cities.
+   ENGLISH ONLY: do not search in Hebrew. Tech-focused sources only:
+   - Comeet-hosted career pages (comeet.com/jobs/...), Glassdoor (snippets only; it blocks scraping)
+   - Company career pages and ATS boards used by Israeli tech companies
+     (Greenhouse, Lever, Workable, Ashby) and Israeli VC/startup job boards
+   - LinkedIn / Indeed (snippets only)
+   Do NOT use general Israeli job boards (AllJobs, Drushim, JobMaster, Dialog, Jobnet): they are
+   not tech-focused. SparkHire is not used (no Israeli tech relevance found).
+   Use several phrasings, e.g. "hiring now", "posted today".
 3. For every candidate not in seen.json, fetch the posting page (WebFetch/curl):
    - Confirm it is OPEN (redirect to company page, 404, "no longer accepting" = closed, skip).
    - Extract the publish date: JSON-LD `datePosted`, "Posted N days ago", page text, or search
