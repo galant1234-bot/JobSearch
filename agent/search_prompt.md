@@ -5,7 +5,17 @@ Freshness is the top priority.
 
 ## Steps
 1. Read agent/profile.md and state/seen.json (list of already-reported job URLs/ids).
-2. Search (WebSearch, standard mode) for each target title with "Tel Aviv" / district cities.
+2. COMEET FIRST (most reliable source, includes dates): run `python3 scripts/comeet_scan.py`.
+   It reads every company page in scripts/comeet_companies.txt, which embeds all positions with
+   time_updated, location and workplace type, and prints relevant roles in the Tel Aviv district
+   sorted by data. Ignore obvious false positives (legal, warehouse, sales). time_updated is the
+   last update, not necessarily the first publication: say "updated N days ago" when unsure.
+   Grow scripts/comeet_companies.txt: each run, use WebSearch restricted to comeet.com
+   (e.g. "Tel Aviv support engineer", "customer success Israel") to find new Israeli companies and
+   append their https://www.comeet.com/jobs/<slug>/<uid> URL. (Comeet is also branded
+   "Spark Hire Recruit".)
+2b. Then search the other sources:
+ (WebSearch, standard mode) for each target title with "Tel Aviv" / district cities.
    ENGLISH ONLY: do not search in Hebrew. Tech-focused sources only:
    - Comeet-hosted career pages (comeet.com/jobs/...), Glassdoor (snippets only; it blocks scraping)
    - Company career pages and ATS boards used by Israeli tech companies
