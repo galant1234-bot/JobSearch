@@ -109,6 +109,18 @@
    "first_seen": "2026-11-22",
    "score": null,
    "decision": "posted 2026-10-21 (31d): not in 8-day list"
+  },
+  "https://www.comeet.com/jobs/upwind/49.004/customer-success-manager/CA.266": {
+   "first_seen": "2026-11-22",
+   "published": "updated 2026-11-21",
+   "score": 60,
+   "decision": "stretch: CSM (non-technical lean); below alert threshold"
+  },
+  "https://www.comeet.com/jobs/team8/61.003/reindeer--ai-solutions-engineer-il/B8.E6F": {
+   "first_seen": "2026-11-22",
+   "published": "updated 2026-11-19",
+   "score": 45,
+   "decision": "dropped: pre-sales AI solutions, not support"
   }
  }
 }

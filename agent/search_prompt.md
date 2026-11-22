@@ -4,7 +4,8 @@ Goal: find NEW, still-open jobs matching agent/profile.md and alert the candidat
 Freshness is the top priority.
 
 ## Steps
-1. Read agent/profile.md and state/seen.json (list of already-reported job URLs/ids).
+1. FIRST run `python3 scripts/merge_state.py` (merges the seen-jobs lists that earlier runs pushed to
+   their own claude/* branches), then read agent/profile.md and state/seen.json (already-evaluated jobs).
 2. COMEET FIRST (most reliable source, includes dates): run `python3 scripts/comeet_scan.py`.
    It reads every company page in scripts/comeet_companies.txt, which embeds all positions with
    time_updated, location and workplace type, and prints relevant roles in the Tel Aviv district
