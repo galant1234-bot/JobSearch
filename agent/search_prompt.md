@@ -14,6 +14,10 @@ Freshness is the top priority.
    (e.g. "Tel Aviv support engineer", "customer success Israel") to find new Israeli companies and
    append their https://www.comeet.com/jobs/<slug>/<uid> URL. (Comeet is also branded
    "Spark Hire Recruit".)
+2a. FEENY (Israeli startup job aggregator, https://feeny.ai): run `python3 scripts/feeny_scan.py`.
+   Its "Nd ago" label is the crawler's last-seen time, NOT the posting date. The script reports the
+   real postedAt. Use postedAt for freshness. Only /job/ pages and sitemaps are used (robots.txt
+   disallows query-string filters: never use them). 404 pages are removed jobs.
 2b. Then search the other sources:
  (WebSearch, standard mode) for each target title with "Tel Aviv" / district cities.
    ENGLISH ONLY: do not search in Hebrew. Tech-focused sources only:
