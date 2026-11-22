@@ -29,6 +29,30 @@
    "published": "2025-01-12",
    "score": 40,
    "decision": "posted ~10 months ago, AI-automation engineering focus: dropped"
+  },
+  "https://jobs.lever.co/walkme/a1ba108a-ab97-42c5-971e-93c12f86226f": {
+   "first_seen": "2026-11-22",
+   "published": "2026-10-22",
+   "score": 60,
+   "decision": "stretch, 31 days old: digest only"
+  },
+  "https://careers.greenfield-growth.com/companies/cynet/jobs/77391032-technical-support-engineer-tier-2": {
+   "first_seen": "2026-11-22",
+   "published": "unknown",
+   "score": 0,
+   "decision": "rejected: closed, based in Tampa"
+  },
+  "https://jobs.ashbyhq.com/Zello/b22b4682-38ff-4ef5-85e4-414ec288619a": {
+   "first_seen": "2026-11-22",
+   "published": "unknown",
+   "score": 0,
+   "decision": "rejected: 404/closed"
+  },
+  "https://job-boards.greenhouse.io/melio/jobs/6338865003": {
+   "first_seen": "2026-11-22",
+   "published": "unknown",
+   "score": 0,
+   "decision": "rejected: role no longer listed"
   }
  }
 }
