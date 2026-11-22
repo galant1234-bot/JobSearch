@@ -53,6 +53,42 @@
    "published": "unknown",
    "score": 0,
    "decision": "rejected: role no longer listed"
+  },
+  "https://www.comeet.com/jobs/global-e/62.002/application-support-engineer/F6.477": {
+   "first_seen": "2026-11-22",
+   "updated": "2026-11-21",
+   "score": 88,
+   "decision": "emailed 2026-11-22"
+  },
+  "https://www.comeet.com/jobs/noma_security/3A.005/senior-technical-support/9B.478": {
+   "first_seen": "2026-11-22",
+   "updated": "2026-11-15",
+   "score": 85,
+   "decision": "emailed 2026-11-22"
+  },
+  "https://www.comeet.com/jobs/kaltura/E2.00D/technical-support-engineer/FE.277": {
+   "first_seen": "2026-11-22",
+   "updated": "2026-11-18",
+   "score": 84,
+   "decision": "emailed 2026-11-22"
+  },
+  "https://www.comeet.com/jobs/upwind/49.004/technical-support-engineer/68.47E": {
+   "first_seen": "2026-11-22",
+   "updated": "2026-11-21",
+   "score": 78,
+   "decision": "emailed 2026-11-22"
+  },
+  "https://www.comeet.com/jobs/noma_security/3A.005/senior-customer-engineer/06.273": {
+   "first_seen": "2026-11-22",
+   "updated": "2026-11-17",
+   "score": 77,
+   "decision": "emailed 2026-11-22"
+  },
+  "https://www.comeet.com/jobs/upwind/49.004/technical-account-manager/76.27A": {
+   "first_seen": "2026-11-22",
+   "updated": "2026-11-20",
+   "score": 70,
+   "decision": "emailed 2026-11-22"
   }
  }
 }
