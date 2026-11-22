@@ -21,8 +21,10 @@ def main(max_age=None):
     for i in range(6):
         try:
             urls += re.findall(r"<loc>([^<]+)</loc>", get(f"https://feeny.ai/sitemap/{i}.xml"))
-        except Exception:
-            pass
+        except Exception as e:
+            print(json.dumps({"error": f"sitemap {i} failed: {e}"[:150]}), file=sys.stderr)
+    if not urls:
+        sys.exit("feeny sitemaps unreachable: no results (not an empty result)")
     jobs = [u for u in urls if "/job/" in u]
     rel = [u for u in jobs if AREA.search(u.split("/job/")[1]) and ROLE.search(u.split("/job/")[1]) and not SKIP.search(u.split("/job/")[1])]
     now = datetime.now(timezone.utc)

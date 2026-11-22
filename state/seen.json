@@ -89,6 +89,26 @@
    "updated": "2026-11-20",
    "score": 70,
    "decision": "emailed 2026-11-22"
+  },
+  "https://www.comeet.com/jobs/global-e/62.002/delivery-solution-engineer/26.861": {
+   "first_seen": "2026-11-22",
+   "score": 65,
+   "decision": "emailed 2026-11-22 (8-day list)"
+  },
+  "https://www.comeet.com/jobs/noma_security/3A.005/senior-customer-success-architect/06.27B": {
+   "first_seen": "2026-11-22",
+   "score": 62,
+   "decision": "emailed 2026-11-22 (8-day list)"
+  },
+  "https://feeny.ai/job/customer-success-engineer-emea-gitlab-israel-hjb06g2asrdc": {
+   "first_seen": "2026-11-22",
+   "score": null,
+   "decision": "excluded: remote"
+  },
+  "https://feeny.ai/job/technical-support-engineer-monday-com-tel-aviv-vjzzdv9re8ek": {
+   "first_seen": "2026-11-22",
+   "score": null,
+   "decision": "posted 2026-10-21 (31d): not in 8-day list"
   }
  }
 }
