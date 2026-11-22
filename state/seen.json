@@ -121,6 +121,30 @@
    "published": "updated 2026-11-19",
    "score": 45,
    "decision": "dropped: pre-sales AI solutions, not support"
+  },
+  "https://www.comeet.com/jobs/kelatechnologies/2A.007/solution-engineer/D1.A69": {
+   "first_seen": "2026-11-22",
+   "published": "2026-11-11",
+   "score": 50,
+   "decision": "10 days old, solutions eng, below alert window: dropped"
+  },
+  "https://www.comeet.com/jobs/vastdata/43.001/vast-on-cloud---customer-success-engineer/E3.E68": {
+   "first_seen": "2026-11-22",
+   "published": "2026-11-01",
+   "score": 62,
+   "decision": "stretch, 20 days old: digest only"
+  },
+  "https://www.comeet.com/jobs/vastdata/43.001/senior-solutions-engineer/B6.639": {
+   "first_seen": "2026-11-22",
+   "published": "2026-10-19",
+   "score": 50,
+   "decision": "33 days old, pre-sales: dropped"
+  },
+  "https://www.comeet.com/jobs/vastdata/43.001/customer-support-engineer/96.61C": {
+   "first_seen": "2026-11-22",
+   "published": "2025-12-03",
+   "score": 20,
+   "decision": "353 days old: dropped"
   }
  }
 }
