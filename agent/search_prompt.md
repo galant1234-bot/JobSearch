@@ -11,7 +11,8 @@ Freshness is the top priority.
    time_updated, location and workplace type, and prints relevant roles in the Tel Aviv district
    sorted by data. Ignore obvious false positives (legal, warehouse, sales). time_updated is the
    last update, not necessarily the first publication: say "updated N days ago" when unsure.
-   Grow scripts/comeet_companies.txt: each run, use WebSearch restricted to comeet.com
+   MANDATORY, never skip: grow scripts/comeet_companies.txt. Each run do at least 3 WebSearch calls
+   (allowed_domains comeet.com), then append new Israeli companies' URLs and commit them. Use WebSearch restricted to comeet.com
    (e.g. "Tel Aviv support engineer", "customer success Israel") to find new Israeli companies and
    append their https://www.comeet.com/jobs/<slug>/<uid> URL. (Comeet is also branded
    "Spark Hire Recruit".)
@@ -19,7 +20,7 @@ Freshness is the top priority.
    Its "Nd ago" label is the crawler's last-seen time, NOT the posting date. The script reports the
    real postedAt. Use postedAt for freshness. Only /job/ pages and sitemaps are used (robots.txt
    disallows query-string filters: never use them). 404 pages are removed jobs.
-2b. Then search the other sources:
+2b. Then ALWAYS also run WebSearch for the other sources below (do not skip; the digest must list what was searched):
  (WebSearch, standard mode) for each target title with "Tel Aviv" / district cities.
    ENGLISH ONLY: do not search in Hebrew. Tech-focused sources only:
    - Comeet-hosted career pages (comeet.com/jobs/...), Glassdoor (snippets only; it blocks scraping)
