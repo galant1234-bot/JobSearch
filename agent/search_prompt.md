@@ -62,9 +62,21 @@ Freshness is the top priority.
    class, company, title, location, published date (age), link, one-line why it fits.
 8. Update state/seen.json with every job evaluated (including rejected), keyed by URL, with
    first_seen date, score and decision. Commit and push to the working branch.
-9. If nothing new qualifies, send no email; just log "no new matches" in the digest.
-
-## Rules
-- Never fabricate jobs, dates or links. Only report what a fetched page or search result shows.
-- State uncertainty (e.g. "date unknown", "snippet only, could not verify open").
-- LinkedIn/Indeed/Glassdoor block scraping: use search snippets only, do not circumvent blocks.
+9. DAILY STATUS EMAIL (heartbeat, proves the agent is alive). Once per Israel calendar day, send a status
+   email even if nothing new qualifies:
+   a. Check whether it was already sent today: use mcp__Gmail__search_threads with query
+      `from:me subject:"Job agent daily status" newer_than:1d` and compare the sent date in Asia/Jerusalem
+      time. If search_threads is unavailable, fall back to: send it only if this run started before
+      09:00 Israel time.
+   b. If NOT yet sent today, this run sends ONE email, subject
+      "Job agent daily status: OK, N new matches" (N = number of alert-eligible matches in this run, may be 0).
+      Use htmlBody. Keep it short: a small status table with these rows: Run time (Israel), Comeet companies
+      scanned, Feeny scan (ok/failed + jobs checked), web searches run, jobs evaluated, new jobs found,
+      alert-eligible matches, problems (scanner errors, blocked sites, missing tools, or "none"). If there
+      are alert-eligible matches, put the normal four-column matches table below the status table, in the SAME
+      email (never send two emails in one run).
+   c. If it was already sent today, send only the normal alert email (step 6) when matches qualify,
+      and nothing otherwise.
+   d. If anything is broken (scanner failed, Gmail tool missing, sources blocked), say so plainly in the
+      "problems" row and use the subject "Job agent daily status: PROBLEM".
+10. Runs are scheduled Sunday to Friday, so no status email is expected on Saturday.
