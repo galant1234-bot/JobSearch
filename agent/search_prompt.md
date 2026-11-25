@@ -62,21 +62,23 @@ Freshness is the top priority.
    class, company, title, location, published date (age), link, one-line why it fits.
 8. Update state/seen.json with every job evaluated (including rejected), keyed by URL, with
    first_seen date, score and decision. Commit and push to the working branch.
-9. DAILY STATUS EMAIL (heartbeat, proves the agent is alive). Once per Israel calendar day, send a status
-   email even if nothing new qualifies:
-   a. Check whether it was already sent today: use mcp__Gmail__search_threads with query
-      `from:me subject:"Job agent daily status" newer_than:1d` and compare the sent date in Asia/Jerusalem
-      time. If search_threads is unavailable, fall back to: send it only if this run started before
-      09:00 Israel time.
-   b. If NOT yet sent today, this run sends ONE email, subject
-      "Job agent daily status: OK, N new matches" (N = number of alert-eligible matches in this run, may be 0).
-      Use htmlBody. Keep it short: a small status table with these rows: Run time (Israel), Comeet companies
-      scanned, Feeny scan (ok/failed + jobs checked), web searches run, jobs evaluated, new jobs found,
-      alert-eligible matches, problems (scanner errors, blocked sites, missing tools, or "none"). If there
-      are alert-eligible matches, put the normal four-column matches table below the status table, in the SAME
-      email (never send two emails in one run).
-   c. If it was already sent today, send only the normal alert email (step 6) when matches qualify,
-      and nothing otherwise.
-   d. If anything is broken (scanner failed, Gmail tool missing, sources blocked), say so plainly in the
-      "problems" row and use the subject "Job agent daily status: PROBLEM".
-10. Runs are scheduled Sunday to Friday, so no status email is expected on Saturday.
+9. DAILY STATUS EMAIL (heartbeat, proves the agent is alive). It is sent ONLY at the end of the day and
+   ONLY if no other email went out during the day:
+   a. Get the Israel time with `TZ=Asia/Jerusalem date`. This step applies only to the LAST run of the day,
+      i.e. a run that started at or after 21:00 Israel time. Earlier runs skip this step entirely and send
+      only the normal alert email (step 6) when matches qualify.
+   b. In that last run, first handle step 6 normally (alert email if matches qualify; then you are done,
+      no status email is needed because an email was sent).
+   c. Otherwise check whether ANY email from this agent was already sent today (Asia/Jerusalem date): use
+      mcp__Gmail__search_threads with query
+      `from:me (subject:"Job alert" OR subject:"Job agent" OR subject:"Relevant roles" OR subject:"Job matches") newer_than:1d`
+      and compare dates in Israel time. If search_threads is unavailable, treat it as "no email sent today"
+      only when this run found no alert-eligible matches.
+   d. If no email was sent today, send ONE email: subject "Job agent daily status: OK, no new positions today"
+      (or "Job agent daily status: PROBLEM" if anything is broken). Use htmlBody. Keep it short: a small
+      table with: Run time (Israel), runs today (from the digest), Comeet companies scanned, Feeny scan
+      (ok/failed), web searches run, jobs evaluated today, new jobs found today, problems (scanner errors,
+      blocked sites, missing tools, or "none").
+   e. If an email was already sent today, send nothing.
+10. Runs are scheduled Sunday to Friday, so no status email is expected on Saturday. If a weekday has NO
+    email at all, the agent did not run to completion or could not send email.
