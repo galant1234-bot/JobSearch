@@ -126,6 +126,303 @@
    "first_seen": "2026-11-22",
    "score": 95,
    "decision": "emailed 2026-11-22 and again 2026-11-24 (duplicate, bug): never alert again"
+  },
+  "https://www.comeet.com/jobs/kelatechnologies/2A.007/solution-engineer/D1.A69": {
+   "first_seen": "2026-11-22",
+   "published": "2026-11-11",
+   "score": 50,
+   "decision": "10 days old, solutions eng, below alert window: dropped"
+  },
+  "https://www.comeet.com/jobs/vastdata/43.001/vast-on-cloud---customer-success-engineer/E3.E68": {
+   "first_seen": "2026-11-22",
+   "published": "2026-11-01",
+   "score": 62,
+   "decision": "stretch, 20 days old: digest only"
+  },
+  "https://www.comeet.com/jobs/vastdata/43.001/senior-solutions-engineer/B6.639": {
+   "first_seen": "2026-11-22",
+   "published": "2026-10-19",
+   "score": 50,
+   "decision": "33 days old, pre-sales: dropped"
+  },
+  "https://www.comeet.com/jobs/vastdata/43.001/customer-support-engineer/96.61C": {
+   "first_seen": "2026-11-22",
+   "published": "2025-12-03",
+   "score": 20,
+   "decision": "353 days old: dropped"
+  },
+  "https://www.comeet.com/jobs/noveesecurity/AA.008/technical-account-manager/B7.378": {
+   "first_seen": "2026-11-22",
+   "updated": "2026-11-21",
+   "score": 72,
+   "decision": "emailed 2026-11-22 (description unverified)"
+  },
+  "https://www.comeet.com/jobs/coralogix/06.004/team-lead-technical-account-manager--il/4B.75E": {
+   "first_seen": "2026-11-22",
+   "updated": "2026-11-18",
+   "score": 84,
+   "decision": "strong, updated 4 days ago: digest only (outside 3-day window)"
+  },
+  "https://www.comeet.com/jobs/coralogix/06.004/technical-account-manager--il/6D.173": {
+   "first_seen": "2026-11-22",
+   "updated": "2026-11-11",
+   "score": 70,
+   "decision": "updated 11 days ago: digest only"
+  },
+  "https://www.comeet.com/jobs/comm-it/76.008/ai-rd-forward-deployment-engineer/17.574": {
+   "first_seen": "2026-11-22",
+   "updated": "2026-11-19",
+   "score": 45,
+   "decision": "dropped: AI R&D forward deployment, weak fit"
+  },
+  "https://www.comeet.com/jobs/easysend/D5.009/implementation-specialist/86.27C": {
+   "first_seen": "2026-11-22",
+   "updated": "2026-11-19",
+   "score": 50,
+   "decision": "dropped: specialist level, unverified fit"
+  },
+  "https://www.comeet.com/jobs/optibus/D1.00C/global-vp-of-customer-success/8C.C6B": {
+   "first_seen": "2026-11-22",
+   "updated": "2026-11-22",
+   "score": 20,
+   "decision": "dropped: VP, not matching"
+  },
+  "https://www.comeet.com/jobs/nayax/13.009/post-merger-integration-counsel-pmi/8A.47D": {
+   "first_seen": "2026-11-22",
+   "updated": "2026-11-21",
+   "score": 0,
+   "decision": "rejected: legal"
+  },
+  "https://www.comeet.com/jobs/nayax/13.009/warehouse--integrations-manager/2C.37D": {
+   "first_seen": "2026-11-22",
+   "updated": "2026-11-17",
+   "score": 0,
+   "decision": "rejected: warehouse"
+  },
+  "https://www.comeet.com/jobs/upwind/49.004/technical-support-engineer--student/93.57F": {
+   "first_seen": "2026-11-22",
+   "score": 0,
+   "decision": "rejected: junior/student"
+  },
+  "https://www.comeet.com/jobs/kelatechnologies/2A.007/support-engineer-noc--tier-1/81.A6C": {
+   "first_seen": "2026-11-22",
+   "score": 0,
+   "decision": "rejected: Tier 1"
+  },
+  "https://www.comeet.com/jobs/quantummachines/D6.000/customer-success-physicist--tel-aviv/5E.E51": {
+   "first_seen": "2026-11-22",
+   "score": 30,
+   "decision": "dropped: physicist role, unrelated",
+   "updated": "2026-11-18"
+  },
+  "https://www.comeet.com/jobs/notch/CA.003/head-of-solution-engineering/0D.F66": {
+   "first_seen": "2026-11-22",
+   "score": 40,
+   "decision": "dropped: head of solution eng, pre-sales/unverified",
+   "updated": "2026-11-22"
+  },
+  "https://www.comeet.com/jobs/rapyd/73.00E/escalation-engineer/10.76C": {
+   "first_seen": "2026-11-22",
+   "score": null,
+   "decision": "Rapyd Escalation Engineer: search snippet only, could not verify open/date: not alerted"
+  },
+  "https://www.comeet.com/jobs/optibus/D1.00C/customer-success-engineer/63.369": {
+   "first_seen": "2026-11-22",
+   "score": null,
+   "decision": "Optibus Customer Success Engineer: search snippet only, could not verify open/date: not alerted"
+  },
+  "https://www.comeet.com/jobs/rapidapi/03.001/technical-support-engineer--tier-3/82.C19": {
+   "first_seen": "2026-11-22",
+   "score": null,
+   "decision": "RapidAPI TSE Tier 3: search snippet only, could not verify open/date: not alerted"
+  },
+  "https://jobs.eu.lever.co/payu/f22c2333-9484-4294-8607-3fa4fe86d412": {
+   "first_seen": "2026-11-22",
+   "score": null,
+   "decision": "PayU TSE: 404 closed"
+  },
+  "https://support.island.io/positions/position-93_047": {
+   "first_seen": "2026-11-22",
+   "score": null,
+   "decision": "Island Escalation Engineer: snippet only, no date, could not fetch: not alerted"
+  },
+  "https://careers.outpost24.com/jobs/7359570-technical-account-manager": {
+   "first_seen": "2026-11-22",
+   "score": null,
+   "decision": "Outpost24 TAM: snippet only, no date, could not fetch: not alerted"
+  },
+  "https://www.alljobs.co.il/m/p/jobs/8727995": {
+   "first_seen": "2026-11-22",
+   "score": null,
+   "decision": "Fintech Escalation Engineer (AllJobs snippet, 1-2 yrs, not an approved source): not alerted"
+  },
+  "https://www.comeet.com/jobs/bluesnap/73.002/fintech-customer-support---team-lead/73.F45": {
+   "first_seen": "2026-11-23",
+   "published": null,
+   "score": 0,
+   "decision": "rejected: Comeet account deactivated, closed"
+  },
+  "https://www.comeet.com/jobs/infinidat/D6.003/experience-hardware-integration-engineer/32.D63": {
+   "first_seen": "2026-11-23",
+   "published": null,
+   "score": 0,
+   "decision": "rejected: hardware integration, unrelated"
+  },
+  "https://www.comeet.com/jobs/infinidat/D6.003/hardware-integration-engineer/90.375": {
+   "first_seen": "2026-11-23",
+   "published": null,
+   "score": 0,
+   "decision": "rejected: hardware integration, unrelated"
+  },
+  "https://www.kelacyber.com/careers/engineering/ED.B67/technical-support-integrations-engineer": {
+   "first_seen": "2026-11-23",
+   "score": null,
+   "decision": "snippet only, host not reachable, no date: not alerted"
+  },
+  "https://careers.wolt.com/en/jobs/support-team-lead-tel-aviv/c834727": {
+   "first_seen": "2026-11-23",
+   "score": null,
+   "decision": "snippet only, host not reachable, no date: not alerted"
+  },
+  "https://www.comeet.com/jobs/team8/61.003/team8--cyber-startup-technical-support-engineer/03.765": {
+   "first_seen": "2026-11-23",
+   "score": null,
+   "decision": "snippet only, not in comeet scan, could not verify open/date: not alerted"
+  },
+  "https://www.comeet.com/jobs/vega/C9.009/technical-support-lead/8D.F62": {
+   "first_seen": "2026-11-23",
+   "updated": "2026-11-22",
+   "score": 90,
+   "decision": "emailed 2026-11-23"
+  },
+  "https://www.comeet.com/jobs/rapidapi/03.001/technical-account-manager/26.91A": {
+   "first_seen": "2026-11-23",
+   "score": null,
+   "decision": "snippet only, not verified: not alerted"
+  },
+  "https://www.comeet.com/jobs/paragon/76.006/technical-account-manager/3B.D4C": {
+   "first_seen": "2026-11-23",
+   "score": null,
+   "decision": "snippet only, not in scan as fresh: not alerted"
+  },
+  "https://builtin.com/job/support-engineer-lead/7822660": {
+   "first_seen": "2026-11-23",
+   "score": null,
+   "decision": "Komodor Support Engineer Lead: snippet only, could not verify open/date: not alerted"
+  },
+  "https://base44.com/careers/technical-support-team-lead-customer-care-tel-aviv": {
+   "first_seen": "2026-11-23",
+   "score": null,
+   "decision": "host not reachable, no verified date: not alerted"
+  },
+  "https://www.comeet.com/jobs/nayax/13.009/post-merger-integration-counsel-pmi_2582/8A.47D": {
+   "first_seen": "2026-11-23",
+   "score": 0,
+   "decision": "rejected: legal"
+  },
+  "https://job-boards.greenhouse.io/aerospike/jobs/8055272002": {
+   "first_seen": "2026-11-23",
+   "score": null,
+   "decision": "not alerted: date and open status unverified (page returned no date)"
+  },
+  "https://job-boards.greenhouse.io/fireblocks/jobs/4629330006": {
+   "first_seen": "2026-11-23",
+   "score": null,
+   "decision": "not alerted: date unverified, likely stale (6+ months per snippet)"
+  },
+  "https://jobs.sapphireventures.com/companies/cyera-2-5f138ae4-3d15-429e-b95d-080ef873f498/jobs/95001806-senior-technical-support-engineer-identity": {
+   "first_seen": "2026-11-24",
+   "published": "2026-09-28",
+   "score": null,
+   "decision": "snippet only, 57 days old: digest only"
+  },
+  "https://www.comeet.com/jobs/safebreach/53.004/senior-technical-account-manager/DD.450": {
+   "first_seen": "2026-11-24",
+   "score": null,
+   "decision": "snippet only, not in comeet scan as fresh, date unverified: not alerted"
+  },
+  "https://job-boards.eu.greenhouse.io/scaleops/jobs/4930936101": {
+   "first_seen": "2026-11-24",
+   "score": 62,
+   "decision": "stretch: TAM k8s pre-sales lean, date unknown, not alerted"
+  },
+  "https://jobs.paloaltonetworks.com/en/job/tel-aviv/staff-escalation-engineer-cortex-platform/47263/96174866048": {
+   "first_seen": "2026-11-24",
+   "score": 0,
+   "decision": "snippet only, not verified/date unknown: not alerted"
+  },
+  "https://jobs.generalcatalyst.com/companies/aidoc/jobs/44880445-escalation-engineer": {
+   "first_seen": "2026-11-24",
+   "score": null,
+   "decision": "Aidoc Escalation Engineer: closed per snippet"
+  },
+  "https://www.comeet.com/jobs/uveye/92.00F": {
+   "first_seen": "2026-11-24",
+   "score": null,
+   "decision": "UVeye IT Support Specialist: IT helpdesk, unrelated, not alerted"
+  },
+  "https://www.comeet.com/jobs/geoedge.com/82.00A/customer-success-manager---appharbr/F5.47D": {
+   "first_seen": "2026-11-24",
+   "score": null,
+   "decision": "GeoEdge CSM AppHarbr: CSM non-technical lean, page not renderable, not alerted"
+  },
+  "https://www.comeet.com/jobs/papayaglobal/16.005/implementation-manager/6F.273": {
+   "first_seen": "2026-11-24",
+   "score": null,
+   "decision": "Papaya Implementation Manager: page unrenderable/possibly closed, unverified, not alerted"
+  },
+  "https://www.comeet.com/jobs/cognyte/F2.009/rd-system-integration-engineer/6D.478": {
+   "first_seen": "2026-11-24",
+   "score": null,
+   "decision": "dropped: R&D integration engineering, unrelated"
+  },
+  "https://www.comeet.com/jobs/geoedge.com/82.00A/support-engineer/8F.D59": {
+   "first_seen": "2026-11-24",
+   "score": null,
+   "decision": "GeoEdge Support Engineer: snippet only, not in fresh scan, unverified: not alerted"
+  },
+  "https://jobs.tlv.partners/companies/silverfort-com/jobs/69444541-senior-manager-escalation-engineering": {
+   "first_seen": "2026-11-24",
+   "score": null,
+   "decision": "snippet only, March 2026 posting: not alerted"
+  },
+  "https://www.comeet.com/jobs/guideline/89.009/junior-product-support-specialist/A7.E5E": {
+   "first_seen": "2026-11-24",
+   "score": 0,
+   "decision": "rejected: junior"
+  },
+  "https://www.comeet.com/jobs/akeyless/27.006/customer-success-engineer--technical-account-manager/6B.36F": {
+   "first_seen": "2026-11-25",
+   "score": null,
+   "decision": "snippet only, no date, not verified: not alerted"
+  },
+  "https://www.comeet.com/jobs/centrical/C1.00A/sr_-customer-success-manager---israel/DA.305": {
+   "first_seen": "2026-11-25",
+   "score": null,
+   "decision": "CSM non-technical, snippet only: not alerted"
+  },
+  "https://www.comeet.com/jobs/cynet/33.00D/senior-technical-support-engineer--escalation-engineer/DA.455": {
+   "first_seen": "2026-11-25",
+   "score": null,
+   "decision": "snippet only, location/date unverified: not alerted"
+  },
+  "https://www.comeet.com/jobs/sentrycs/88.002/head-of-customer-success--support/CA.57E": {
+   "first_seen": "2026-11-25",
+   "published": "2026-11-25 (updated)",
+   "score": 66,
+   "decision": "stretch, below alert threshold 70 (Head-level, managerial)"
+  },
+  "https://feeny.ai/job/senior-technical-account-manager-axonius-tel-aviv-1xnnc6jfpbra": {
+   "first_seen": "2026-11-25",
+   "published": "2026-11-09",
+   "score": 60,
+   "decision": "older than 3 days: digest only"
+  },
+  "https://www.getajob.careers/jobs/technical-account-manager-evinced-5ec6c10b": {
+   "first_seen": "2026-11-26",
+   "published": "unknown",
+   "score": 0,
+   "decision": "not verified (page unreadable); not alerted"
   }
  }
 }
