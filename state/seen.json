@@ -121,6 +121,11 @@
    "published": "updated 2026-11-19",
    "score": 45,
    "decision": "dropped: pre-sales AI solutions, not support"
+  },
+  "https://www.comeet.com/jobs/fullpath/54.002/technical-support-engineer/57.57D": {
+   "first_seen": "2026-11-22",
+   "score": 95,
+   "decision": "emailed 2026-11-22 and again 2026-11-24 (duplicate, bug): never alert again"
   }
  }
 }

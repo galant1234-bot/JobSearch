@@ -43,7 +43,11 @@ Freshness is the top priority.
    Hard rejects: closed, outside Tel Aviv district (non-remote), junior/Tier 1 only,
    unrelated to the candidate's experience.
 5. Classes: score >= 75 "strong", 60-74 "stretch". Anything below 60 is dropped.
-6. ALERT rule: a job is alerted immediately if it is new (not in seen.json), published within
+6. NEVER RE-ALERT: a job URL already in state/seen.json (whatever its decision) is never alerted or emailed again,
+   even if Comeet shows a fresh time_updated or its score changed. (The Fullpath technical support role was
+   alerted twice, on 2026-11-22 and 2026-11-24, because an edit made it look new.) Only mention such a
+   job in the digest, with a note like "updated again". Match URLs by comeet company/position id, ignoring slug text.
+   ALERT rule: a job is alerted immediately if it is new (not in seen.json), published within
    the last 3 days (or date unknown but first seen today and score >= 80), AND score >= 70.
    Send ONE email per run containing all new alerts (never one email per job).
    Subject: "Job alert: N new matches (top: <title> @ <company>)". Use Gmail send_message with
