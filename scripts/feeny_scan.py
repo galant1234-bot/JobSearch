@@ -10,8 +10,8 @@ from datetime import datetime, timezone
 
 UA = {"User-Agent": "Mozilla/5.0"}
 AREA = re.compile(r"tel-aviv|israel|ramat-gan|herzliya|petah-tikva|givatayim|bnei-brak|holon|rishon")
-ROLE = re.compile(r"support|success-engineer|escalation|solutions?-engineer|implementation|technical-account|customer-engineer|deployment")
-SKIP = re.compile(r"it-support|product-manager|full-stack|data-engineer|fp-a|field-technical|sales|account-executive|marketing|legal|recruit")
+ROLE = re.compile(r"data-operations?|data-ops|data-quality|data-annotation|annotation|labell?ing|data-services|data-delivery|analytics-(team|manager|operations)|team-lead.*data|data.*(team-lead|manager|lead)|support|success-engineer|escalation|solutions?-engineer|implementation|technical-account|customer-engineer|deployment")
+SKIP = re.compile(r"data-engineer|etl|mlops|devops|data-scientist|software|backend|platform-engineer|bizops|revops|it-support|product-manager|full-stack|data-engineer|fp-a|field-technical|sales|account-executive|marketing|legal|recruit")
 
 def get(url):
     return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=40).read().decode("utf-8", "ignore")

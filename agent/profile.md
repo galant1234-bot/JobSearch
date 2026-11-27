@@ -19,3 +19,13 @@ Implementation Engineer, Solutions Engineer (post-sales). English titles and Eng
 - Languages: Hebrew + English fine.
 - Shifts/on-call: accepted for now.
 - Companies: no exclusions, except roles/domains unrelated to the experience above.
+
+## Data leadership track (added 2026-11-27)
+Also target data-focused team lead / manager roles that are NOT data engineering and NOT infrastructure/business
+"ops". Good fits (CV: Trax Senior Data Specialist, KPI configuration, data labeling and validation for ML,
+Fingenom data analyst, team lead experience): Data Operations Team Lead / Manager, Data Quality Team Lead,
+Data Annotation / Labeling / Validation Team Lead, Analytics Operations / KPI Team Lead, Customer Data Delivery /
+Data Services Team Lead, Data Analyst Team Lead.
+Exclude: Data Engineer / Analytics Engineer / ETL / data platform, MLOps / DevOps / IT ops, BizOps / RevOps /
+Sales ops, Data Scientist / Researcher (individual contributor), pure software roles, director-level research roles
+unless clearly operations-led (mark those "stretch").

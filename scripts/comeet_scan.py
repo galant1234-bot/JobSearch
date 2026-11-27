@@ -10,6 +10,10 @@ from datetime import datetime, timezone
 
 ROLE = re.compile(r"support|success|escalation|solutions? engineer|implementation|integration|technical account|customer engineer|deployment|onboarding", re.I)
 JUNIOR = re.compile(r"\b(junior|intern|student|entry|tier ?1)\b", re.I)
+# Data-leadership track (data quality / data operations / annotation / analytics team leads); NOT data engineering or infra/biz ops
+DATA_ROLE = re.compile(r"data[ -]?(operations?|ops|quality|annotation|labell?ing|services|support|delivery|governance|management)|analytics? (team|manager|lead|operations?)|(team lead|manager|head).{0,20}\bdata\b|\bdata\b.{0,20}(team lead|manager|head of)|kpi|annotation|labell?ing|insights? (team|manager)", re.I)
+DATA_LEAD = re.compile(r"lead|manager|head|senior|director|supervisor", re.I)
+DATA_EXCL = re.compile(r"data cent(er|re)|project manager|hardware|data engineer|etl|mlops|devops|platform|software|backend|full[ -]?stack|security|scientist|researcher|bizops|biz ops|sales ops|revops|marketing ops|it ops|network|student|intern|analyst$|dba|database admin", re.I)
 CITIES = re.compile(r"tel[ -]?aviv|ramat[ -]?gan|givatayim|bnei[ -]?brak|holon|bat[ -]?yam|herzliya|petah|petach|or yehuda|kiryat ono|rishon|yafo|jaffa", re.I)
 
 def fetch(url):
@@ -39,14 +43,20 @@ def main():
             loc = p.get("location") or {}
             locs = json.dumps(loc, ensure_ascii=False)
             title = p.get("name", "")
-            if not (ROLE.search(title) and CITIES.search(locs)):
+            track = "support"
+            if not CITIES.search(locs):
                 continue
+            if not ROLE.search(title):
+                if DATA_ROLE.search(title) and DATA_LEAD.search(title) and not DATA_EXCL.search(title):
+                    track = "data"
+                else:
+                    continue
             upd = p.get("time_updated") or ""
             try:
                 age = (now - datetime.fromisoformat(upd.replace("Z", "+00:00"))).days
             except Exception:
                 age = None
-            print(json.dumps({"company": p.get("company_name"), "title": title, "junior_flag": bool(JUNIOR.search(title)),
+            print(json.dumps({"company": p.get("company_name"), "title": title, "track": track, "junior_flag": bool(JUNIOR.search(title)),
                               "location": loc.get("name") if isinstance(loc, dict) else loc,
                               "workplace": p.get("workplace_type"), "updated": upd, "age_days": age,
                               "url": p.get("url_comeet_hosted_page")}, ensure_ascii=False))

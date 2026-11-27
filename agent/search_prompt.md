@@ -20,6 +20,11 @@ Freshness is the top priority.
    Its "Nd ago" label is the crawler's last-seen time, NOT the posting date. The script reports the
    real postedAt. Use postedAt for freshness. Only /job/ pages and sitemaps are used (robots.txt
    disallows query-string filters: never use them). 404 pages are removed jobs.
+2a2. DATA TRACK: comeet_scan.py and feeny_scan.py also output data-leadership roles (`"track": "data"` in comeet_scan).
+   Include them, scored with the same rules (see profile.md data leadership track; exclude data engineering and
+   infra/biz ops). In the 3 mandatory comeet.com discovery searches, at least one must target data roles
+   (e.g. "data operations team lead Israel", "data annotation team lead Tel Aviv", "analytics team lead Tel Aviv").
+   Label data-track items "(data)" in the email Job Title column.
 2b. Then ALWAYS also run WebSearch for the other sources below (do not skip; the digest must list what was searched):
  (WebSearch, standard mode) for each target title with "Tel Aviv" / district cities.
    ENGLISH ONLY: do not search in Hebrew. Tech-focused sources only:
@@ -35,7 +40,7 @@ Freshness is the top priority.
    - Extract the publish date: JSON-LD `datePosted`, "Posted N days ago", page text, or search
      snippet date. If no date can be found, mark date="unknown" and treat as lower freshness.
 4. Score 0-100:
-   - Role fit (title/scope matches target roles): 0-35
+   - Role fit (title/scope matches target roles, including the data leadership track in profile.md): 0-35
    - Skills/domain fit (API, SQL, escalation, integrations, logs): 0-30
    - Seniority fit (senior/lead; penalise junior): 0-15
    - Location/work-mode fit: 0-10
