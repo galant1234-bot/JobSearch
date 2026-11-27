@@ -567,6 +567,18 @@
    "published": "unknown",
    "score": 0,
    "decision": "dropped: posting redirects to board list, could not verify open"
+  },
+  "https://www.comeet.com/jobs/alice/D5.005/director-of-ai-research--data-operations/B1.47E": {
+   "first_seen": "2026-11-27",
+   "published": "2026-11-26",
+   "score": 40,
+   "decision": "dropped: Director of AI Research & Data Ops (director-level, research-led; page unverifiable)"
+  },
+  "https://www.comeet.com/jobs/alice/D5.005/senior-data-product-manager-ai/91.47E": {
+   "first_seen": "2026-11-27",
+   "published": "2026-11-26",
+   "score": 40,
+   "decision": "dropped: Senior Data Product Manager (product, not target)"
   }
  }
 }
