@@ -567,6 +567,60 @@
    "published": "unknown",
    "score": 0,
    "decision": "dropped: posting redirects to board list, could not verify open"
+  },
+  "https://www.comeet.com/jobs/alice/D5.005/director-of-ai-research--data-operations/B1.47E": {
+   "first_seen": "2026-11-27",
+   "published": "2026-11-26",
+   "score": 40,
+   "decision": "dropped: Director of AI Research & Data Ops (director-level, research-led; page unverifiable)"
+  },
+  "https://www.comeet.com/jobs/alice/D5.005/senior-data-product-manager-ai/91.47E": {
+   "first_seen": "2026-11-27",
+   "published": "2026-11-26",
+   "score": 40,
+   "decision": "dropped: Senior Data Product Manager (product, not target)"
+  },
+  "https://feeny.ai/job/data-tech-lead-torq-tel-aviv-ya4f4xcr7hgs": {
+   "first_seen": "2026-11-27",
+   "published": "2026-11-18",
+   "score": null,
+   "decision": "not alerted: posted >3 days ago (data track, digest only, not scored/verified)"
+  },
+  "https://feeny.ai/job/data-team-lead-similarweb-tel-aviv-yafo-9qmjx3ptejda": {
+   "first_seen": "2026-11-27",
+   "published": "2026-11-09",
+   "score": null,
+   "decision": "not alerted: posted >3 days ago (data track, digest only, not scored/verified)"
+  },
+  "https://feeny.ai/job/data-operations-manager-instacart-israel-jt79bc2sv07m": {
+   "first_seen": "2026-11-27",
+   "published": "2026-09-29",
+   "score": null,
+   "decision": "not alerted: posted >3 days ago (data track, digest only, not scored/verified)"
+  },
+  "https://feeny.ai/job/data-warehouse-tech-lead-lemonade-tel-aviv-11mbqwjrdw7e": {
+   "first_seen": "2026-11-27",
+   "published": "2026-01-27",
+   "score": null,
+   "decision": "not alerted: posted >3 days ago (data track, digest only, not scored/verified)"
+  },
+  "https://feeny.ai/job/ai-data-lead-ourritual-tel-aviv-5829fqhxjsg1": {
+   "first_seen": "2026-11-27",
+   "published": "2026-09-24",
+   "score": null,
+   "decision": "not alerted: posted >3 days ago (data track, digest only, not scored/verified)"
+  },
+  "https://feeny.ai/job/data-science-group-lead-pagaya-israel-tel-aviv-a3mwed7pnn0e": {
+   "first_seen": "2026-11-27",
+   "published": "2026-03-17",
+   "score": null,
+   "decision": "not alerted: posted >3 days ago (data track, digest only, not scored/verified)"
+  },
+  "https://feeny.ai/job/data-analyst-lead-easyplant-mixtiles-tel-aviv-nzdx8h991js2": {
+   "first_seen": "2026-11-27",
+   "published": "2026-10-25",
+   "score": null,
+   "decision": "not alerted: posted >3 days ago (data track, digest only, not scored/verified)"
   }
  }
 }
