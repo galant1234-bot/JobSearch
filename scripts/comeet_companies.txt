@@ -66,3 +66,4 @@ https://www.comeet.com/jobs/uveye/92.00F
 https://www.comeet.com/jobs/vastdata/43.001
 https://www.comeet.com/jobs/vega/C9.009
 https://www.comeet.com/jobs/zenity/19.000
+https://www.comeet.com/jobs/scylladb/E4.006
